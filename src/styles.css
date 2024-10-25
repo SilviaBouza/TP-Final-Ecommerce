@@ -1,0 +1,64 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Texto en gris oscuro */
+  }
+  
+  /* Estilos para el Header */
+  header {
+    background: #007BFF; /* Color de fondo azul */
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar los enlaces */
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Espacio entre enlaces */
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+  }
+  
+  /* Estilos para el Main */
+  main {
+    padding: 20px;
+    max-width: 800px; /* Limitar ancho del contenido */
+    margin: auto; /* Centrar el main */
+    background: white; /* Fondo blanco para el contenido */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilos para el Footer */
+  footer {
+    background: #007BFF; /* Mismo color que el header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  

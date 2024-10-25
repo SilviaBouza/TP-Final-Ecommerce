@@ -1,0 +1,44 @@
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.custom-col {
+    width: 100%;
+    max-width: 400px; 
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 576px) {
+    .custom-col {
+        width: 90%;
+    }
+}
+
+/* Para pantallas medianas */
+@media (min-width: 576px) and (max-width: 768px) {
+    .custom-col {
+        width: 80%;
+    }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 768px) {
+    .custom-col {
+        width: 60%; 
+    }
+}
+
+/* Para pantallas muy grandes */
+@media (min-width: 992px) {
+    .custom-col {
+        width: 40%; 
+    }
+}
+
+.form-label {
+    display: block;
+}
