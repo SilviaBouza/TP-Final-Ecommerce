@@ -7,7 +7,7 @@ import Register from './componentes/Routes/Register';
 import Login from './componentes/Routes/Login';
 import ListadoProductos from  './componentes/Routes/Listado-productos';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
